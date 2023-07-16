@@ -34,7 +34,7 @@ pub fn ellipse(a1: f32, a2: f32, a3: f32, mu: f32) -> (f32, f32, f32, f32, f32, 
     let mut tensor_index_a2: Vec<usize> = Vec::new();
     let mut tensor_index_a3: Vec<usize> = Vec::new();
 
-    for x in 1..1000000 {
+    for x in 1..10 {
         let mut s = x as f32 * ds;
         s = s - ds / 2.0;
 
